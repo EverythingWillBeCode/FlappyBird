@@ -12,7 +12,7 @@ class Grumpy:
 		self.win = win
 
 		self.im_list = []
-		bird_color = random.choice(['red', 'blue', 'yellow', 'green'])   # agregue color verde y no ejecuta
+		bird_color = random.choice(['red', 'blue', 'yellow'])   # agregue color verde y no ejecuta
 		for i in range(1,4):
 			img =  pygame.image.load(f'Assets/Grumpy/{bird_color}{i}.png')
 			self.im_list.append(img)
@@ -21,7 +21,7 @@ class Grumpy:
 		
 	def update(self):
 		# gravity
-		self.vel += 0.3
+		self.vel += 0.7
 		if self.vel >= 8:
 			self.vel = 8
 		if self.rect.bottom <= display_height:

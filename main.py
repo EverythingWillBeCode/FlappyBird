@@ -20,7 +20,7 @@ else:
 
 # win = pygame.display.set_mode(SCREEN, pygame.SCALED | pygame.FULLSCREEN)
 clock = pygame.time.Clock()
-FPS = 60
+FPS = 30
 
 # COLORS
 
