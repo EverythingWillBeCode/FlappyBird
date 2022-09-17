@@ -20,7 +20,7 @@ else:
 
 # win = pygame.display.set_mode(SCREEN, pygame.SCALED | pygame.FULLSCREEN)
 clock = pygame.time.Clock()
-FPS = 30
+FPS = 60
 
 # COLORS
 
@@ -68,7 +68,7 @@ restart = False
 score = 0
 start_screen = True
 pipe_pass = False
-pipe_frequency = 1600
+pipe_frequency = 2400
 
 running =  True
 while running:
