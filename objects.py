@@ -21,7 +21,7 @@ class Grumpy:
 		
 	def update(self):
 		# gravity
-		self.vel += 0.7
+		self.vel += 0.5
 		if self.vel >= 8:
 			self.vel = 8
 		if self.rect.bottom <= display_height:
